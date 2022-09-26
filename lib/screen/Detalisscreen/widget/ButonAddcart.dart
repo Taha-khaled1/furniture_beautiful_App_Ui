@@ -33,7 +33,7 @@ class ButonAddcart extends StatelessWidget {
           ),
           // it will cover all available spaces
           Spacer(),
-          FlatButton.icon(
+          OutlinedButton.icon(
             onPressed: () {},
             icon: SvgPicture.asset(
               "images/shopping-bag.svg",
